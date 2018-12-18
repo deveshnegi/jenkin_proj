@@ -1,0 +1,24 @@
+{
+  "name": "jenkin_proj",
+  "version": "1.0.0",
+  "description": "first jenkin deployment project",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deveshnegi/jenkin_proj.git"
+  },
+  "author": "deveshnegi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deveshnegi/jenkin_proj/issues"
+  },
+  "homepage": "https://github.com/deveshnegi/jenkin_proj#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mocha": "^5.2.0",
+    "supertest": "^3.3.0"
+  }
+}
