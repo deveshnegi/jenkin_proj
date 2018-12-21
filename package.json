@@ -4,7 +4,7 @@
   "description": "first jenkin deployment project",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha ./test/test.js"
+    "test": "./node_modules/.bin/mocha ./test/test.js --exit"
   },
   "repository": {
     "type": "git",
