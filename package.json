@@ -1,6 +1,6 @@
 {
   "name": "jenkin_proj",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "first jenkin deployment project",
   "main": "index.js",
   "scripts": {
