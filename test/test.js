@@ -11,6 +11,6 @@ describe('GET /', function() {
 
 describe('GET /hero',function(){
     it('respond with failed build test',function(done){
-        request(app).get('/hero').expect('Hero Test Build Failed',done);
+        request(app).get('/hero').expect('Hero Test Build',done);
     });
 });
